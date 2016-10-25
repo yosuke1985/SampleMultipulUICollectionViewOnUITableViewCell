@@ -1,0 +1,683 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B72C6E2E8506E71E751E583C /* Pods_MoolProject.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B19D8C33F3AE13C291C2F8DF /* Pods_MoolProject.framework */; };
+		CE32CC591DB0E268009069AF /* ShowDataTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE32CC571DB0E268009069AF /* ShowDataTableViewCell.swift */; };
+		CE32CC5A1DB0E268009069AF /* ShowDataTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CE32CC581DB0E268009069AF /* ShowDataTableViewCell.xib */; };
+		CE32CC5F1DB101A3009069AF /* ShowDataCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE32CC5D1DB101A3009069AF /* ShowDataCollectionViewCell.swift */; };
+		CE32CC601DB101A3009069AF /* ShowDataCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CE32CC5E1DB101A3009069AF /* ShowDataCollectionViewCell.xib */; };
+		CE366B9B1DA6552D009B9E9C /* ButtonBarExampleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE366B9A1DA6552D009B9E9C /* ButtonBarExampleViewController.swift */; };
+		CE366B9E1DA655CD009B9E9C /* ChildExampleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE366B9C1DA655CD009B9E9C /* ChildExampleViewController.swift */; };
+		CE366B9F1DA655CD009B9E9C /* TableChildExampleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE366B9D1DA655CD009B9E9C /* TableChildExampleViewController.swift */; };
+		CE366BA31DA65614009B9E9C /* PostCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CE366BA01DA65614009B9E9C /* PostCell.xib */; };
+		CE366BA41DA65614009B9E9C /* PostCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE366BA11DA65614009B9E9C /* PostCell.swift */; };
+		CE366BA51DA65614009B9E9C /* DataProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE366BA21DA65614009B9E9C /* DataProvider.swift */; };
+		CE6140911DB8FDC4002D58A1 /* ProductCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE61408F1DB8FDC4002D58A1 /* ProductCollectionViewCell.swift */; };
+		CE6140921DB8FDC4002D58A1 /* ProductCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CE6140901DB8FDC4002D58A1 /* ProductCollectionViewCell.xib */; };
+		CE6140951DBA1BC4002D58A1 /* ProductTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6140931DBA1BC4002D58A1 /* ProductTableViewCell.swift */; };
+		CE6140961DBA1BC4002D58A1 /* ProductTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CE6140941DBA1BC4002D58A1 /* ProductTableViewCell.xib */; };
+		CEA590D01DAF933E0026C4A9 /* TableChildFoodViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEA590CF1DAF933E0026C4A9 /* TableChildFoodViewController.swift */; };
+		CED3505F1D9BCE5F0000FF10 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CED3505E1D9BCE5F0000FF10 /* AppDelegate.swift */; };
+		CED350631D9BCE5F0000FF10 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CED350621D9BCE5F0000FF10 /* SecondViewController.swift */; };
+		CED350661D9BCE5F0000FF10 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CED350641D9BCE5F0000FF10 /* Main.storyboard */; };
+		CED350681D9BCE5F0000FF10 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CED350671D9BCE5F0000FF10 /* Assets.xcassets */; };
+		CED3506B1D9BCE5F0000FF10 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CED350691D9BCE5F0000FF10 /* LaunchScreen.storyboard */; };
+		CED350761D9BCE600000FF10 /* MoolProjectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CED350751D9BCE600000FF10 /* MoolProjectTests.swift */; };
+		CED350811D9BCE600000FF10 /* MoolProjectUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CED350801D9BCE600000FF10 /* MoolProjectUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CED350721D9BCE600000FF10 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CED350531D9BCE5F0000FF10 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CED3505A1D9BCE5F0000FF10;
+			remoteInfo = MoolProject;
+		};
+		CED3507D1D9BCE600000FF10 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CED350531D9BCE5F0000FF10 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CED3505A1D9BCE5F0000FF10;
+			remoteInfo = MoolProject;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2336EC0E256EC60D918A08CF /* Pods-MoolProject.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MoolProject.release.xcconfig"; path = "Pods/Target Support Files/Pods-MoolProject/Pods-MoolProject.release.xcconfig"; sourceTree = "<group>"; };
+		59436FF76BB41E5C4DB0A729 /* Pods-MoolProject.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MoolProject.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MoolProject/Pods-MoolProject.debug.xcconfig"; sourceTree = "<group>"; };
+		B19D8C33F3AE13C291C2F8DF /* Pods_MoolProject.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MoolProject.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE32CC571DB0E268009069AF /* ShowDataTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShowDataTableViewCell.swift; sourceTree = "<group>"; };
+		CE32CC581DB0E268009069AF /* ShowDataTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ShowDataTableViewCell.xib; sourceTree = "<group>"; };
+		CE32CC5D1DB101A3009069AF /* ShowDataCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShowDataCollectionViewCell.swift; sourceTree = "<group>"; };
+		CE32CC5E1DB101A3009069AF /* ShowDataCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ShowDataCollectionViewCell.xib; sourceTree = "<group>"; };
+		CE366B9A1DA6552D009B9E9C /* ButtonBarExampleViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ButtonBarExampleViewController.swift; sourceTree = "<group>"; };
+		CE366B9C1DA655CD009B9E9C /* ChildExampleViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChildExampleViewController.swift; sourceTree = "<group>"; };
+		CE366B9D1DA655CD009B9E9C /* TableChildExampleViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableChildExampleViewController.swift; sourceTree = "<group>"; };
+		CE366BA01DA65614009B9E9C /* PostCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PostCell.xib; sourceTree = "<group>"; };
+		CE366BA11DA65614009B9E9C /* PostCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostCell.swift; sourceTree = "<group>"; };
+		CE366BA21DA65614009B9E9C /* DataProvider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataProvider.swift; sourceTree = "<group>"; };
+		CE61408F1DB8FDC4002D58A1 /* ProductCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProductCollectionViewCell.swift; sourceTree = "<group>"; };
+		CE6140901DB8FDC4002D58A1 /* ProductCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ProductCollectionViewCell.xib; sourceTree = "<group>"; };
+		CE6140931DBA1BC4002D58A1 /* ProductTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProductTableViewCell.swift; sourceTree = "<group>"; };
+		CE6140941DBA1BC4002D58A1 /* ProductTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ProductTableViewCell.xib; sourceTree = "<group>"; };
+		CEA590CF1DAF933E0026C4A9 /* TableChildFoodViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableChildFoodViewController.swift; sourceTree = "<group>"; };
+		CED3505B1D9BCE5F0000FF10 /* MoolProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MoolProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CED3505E1D9BCE5F0000FF10 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CED350621D9BCE5F0000FF10 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		CED350651D9BCE5F0000FF10 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CED350671D9BCE5F0000FF10 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CED3506A1D9BCE5F0000FF10 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CED3506C1D9BCE5F0000FF10 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CED350711D9BCE600000FF10 /* MoolProjectTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MoolProjectTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CED350751D9BCE600000FF10 /* MoolProjectTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoolProjectTests.swift; sourceTree = "<group>"; };
+		CED350771D9BCE600000FF10 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CED3507C1D9BCE600000FF10 /* MoolProjectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MoolProjectUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CED350801D9BCE600000FF10 /* MoolProjectUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoolProjectUITests.swift; sourceTree = "<group>"; };
+		CED350821D9BCE600000FF10 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CED350581D9BCE5F0000FF10 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B72C6E2E8506E71E751E583C /* Pods_MoolProject.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CED3506E1D9BCE600000FF10 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CED350791D9BCE600000FF10 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5BDBC88F164CF54288DF62E3 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				59436FF76BB41E5C4DB0A729 /* Pods-MoolProject.debug.xcconfig */,
+				2336EC0E256EC60D918A08CF /* Pods-MoolProject.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		BE3791DAC045198F502633A2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B19D8C33F3AE13C291C2F8DF /* Pods_MoolProject.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CEA590CE1DAF92770026C4A9 /* SampleData */ = {
+			isa = PBXGroup;
+			children = (
+				CE366B9D1DA655CD009B9E9C /* TableChildExampleViewController.swift */,
+				CE366B9C1DA655CD009B9E9C /* ChildExampleViewController.swift */,
+				CE366BA21DA65614009B9E9C /* DataProvider.swift */,
+				CE366BA01DA65614009B9E9C /* PostCell.xib */,
+				CE366BA11DA65614009B9E9C /* PostCell.swift */,
+			);
+			name = SampleData;
+			sourceTree = "<group>";
+		};
+		CED350521D9BCE5F0000FF10 = {
+			isa = PBXGroup;
+			children = (
+				CED3505D1D9BCE5F0000FF10 /* MoolProject */,
+				CED350741D9BCE600000FF10 /* MoolProjectTests */,
+				CED3507F1D9BCE600000FF10 /* MoolProjectUITests */,
+				CED3505C1D9BCE5F0000FF10 /* Products */,
+				5BDBC88F164CF54288DF62E3 /* Pods */,
+				BE3791DAC045198F502633A2 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		CED3505C1D9BCE5F0000FF10 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CED3505B1D9BCE5F0000FF10 /* MoolProject.app */,
+				CED350711D9BCE600000FF10 /* MoolProjectTests.xctest */,
+				CED3507C1D9BCE600000FF10 /* MoolProjectUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CED3505D1D9BCE5F0000FF10 /* MoolProject */ = {
+			isa = PBXGroup;
+			children = (
+				CED3505E1D9BCE5F0000FF10 /* AppDelegate.swift */,
+				CE366B9A1DA6552D009B9E9C /* ButtonBarExampleViewController.swift */,
+				CEA590CF1DAF933E0026C4A9 /* TableChildFoodViewController.swift */,
+				CE32CC571DB0E268009069AF /* ShowDataTableViewCell.swift */,
+				CE32CC581DB0E268009069AF /* ShowDataTableViewCell.xib */,
+				CE32CC5D1DB101A3009069AF /* ShowDataCollectionViewCell.swift */,
+				CE32CC5E1DB101A3009069AF /* ShowDataCollectionViewCell.xib */,
+				CE6140931DBA1BC4002D58A1 /* ProductTableViewCell.swift */,
+				CE6140941DBA1BC4002D58A1 /* ProductTableViewCell.xib */,
+				CE61408F1DB8FDC4002D58A1 /* ProductCollectionViewCell.swift */,
+				CE6140901DB8FDC4002D58A1 /* ProductCollectionViewCell.xib */,
+				CEA590CE1DAF92770026C4A9 /* SampleData */,
+				CED350621D9BCE5F0000FF10 /* SecondViewController.swift */,
+				CED350641D9BCE5F0000FF10 /* Main.storyboard */,
+				CED350671D9BCE5F0000FF10 /* Assets.xcassets */,
+				CED350691D9BCE5F0000FF10 /* LaunchScreen.storyboard */,
+				CED3506C1D9BCE5F0000FF10 /* Info.plist */,
+			);
+			path = MoolProject;
+			sourceTree = "<group>";
+		};
+		CED350741D9BCE600000FF10 /* MoolProjectTests */ = {
+			isa = PBXGroup;
+			children = (
+				CED350751D9BCE600000FF10 /* MoolProjectTests.swift */,
+				CED350771D9BCE600000FF10 /* Info.plist */,
+			);
+			path = MoolProjectTests;
+			sourceTree = "<group>";
+		};
+		CED3507F1D9BCE600000FF10 /* MoolProjectUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CED350801D9BCE600000FF10 /* MoolProjectUITests.swift */,
+				CED350821D9BCE600000FF10 /* Info.plist */,
+			);
+			path = MoolProjectUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CED3505A1D9BCE5F0000FF10 /* MoolProject */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CED350851D9BCE600000FF10 /* Build configuration list for PBXNativeTarget "MoolProject" */;
+			buildPhases = (
+				F7D2B8E821BD3FEB6F51A763 /* Check Pods Manifest.lock */,
+				CED350571D9BCE5F0000FF10 /* Sources */,
+				CED350581D9BCE5F0000FF10 /* Frameworks */,
+				CED350591D9BCE5F0000FF10 /* Resources */,
+				4B6D27D5CE00DB8956B57DD0 /* Embed Pods Frameworks */,
+				78B34650B6D28DA471D5B17C /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MoolProject;
+			productName = MoolProject;
+			productReference = CED3505B1D9BCE5F0000FF10 /* MoolProject.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CED350701D9BCE600000FF10 /* MoolProjectTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CED350881D9BCE600000FF10 /* Build configuration list for PBXNativeTarget "MoolProjectTests" */;
+			buildPhases = (
+				CED3506D1D9BCE600000FF10 /* Sources */,
+				CED3506E1D9BCE600000FF10 /* Frameworks */,
+				CED3506F1D9BCE600000FF10 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CED350731D9BCE600000FF10 /* PBXTargetDependency */,
+			);
+			name = MoolProjectTests;
+			productName = MoolProjectTests;
+			productReference = CED350711D9BCE600000FF10 /* MoolProjectTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CED3507B1D9BCE600000FF10 /* MoolProjectUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CED3508B1D9BCE600000FF10 /* Build configuration list for PBXNativeTarget "MoolProjectUITests" */;
+			buildPhases = (
+				CED350781D9BCE600000FF10 /* Sources */,
+				CED350791D9BCE600000FF10 /* Frameworks */,
+				CED3507A1D9BCE600000FF10 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CED3507E1D9BCE600000FF10 /* PBXTargetDependency */,
+			);
+			name = MoolProjectUITests;
+			productName = MoolProjectUITests;
+			productReference = CED3507C1D9BCE600000FF10 /* MoolProjectUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CED350531D9BCE5F0000FF10 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0800;
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = "Yosuke Nakayama";
+				TargetAttributes = {
+					CED3505A1D9BCE5F0000FF10 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = 8N936MB2VB;
+						ProvisioningStyle = Automatic;
+					};
+					CED350701D9BCE600000FF10 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = CED3505A1D9BCE5F0000FF10;
+					};
+					CED3507B1D9BCE600000FF10 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = CED3505A1D9BCE5F0000FF10;
+					};
+				};
+			};
+			buildConfigurationList = CED350561D9BCE5F0000FF10 /* Build configuration list for PBXProject "MoolProject" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CED350521D9BCE5F0000FF10;
+			productRefGroup = CED3505C1D9BCE5F0000FF10 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CED3505A1D9BCE5F0000FF10 /* MoolProject */,
+				CED350701D9BCE600000FF10 /* MoolProjectTests */,
+				CED3507B1D9BCE600000FF10 /* MoolProjectUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CED350591D9BCE5F0000FF10 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CED3506B1D9BCE5F0000FF10 /* LaunchScreen.storyboard in Resources */,
+				CE32CC601DB101A3009069AF /* ShowDataCollectionViewCell.xib in Resources */,
+				CE32CC5A1DB0E268009069AF /* ShowDataTableViewCell.xib in Resources */,
+				CE6140921DB8FDC4002D58A1 /* ProductCollectionViewCell.xib in Resources */,
+				CED350681D9BCE5F0000FF10 /* Assets.xcassets in Resources */,
+				CE6140961DBA1BC4002D58A1 /* ProductTableViewCell.xib in Resources */,
+				CED350661D9BCE5F0000FF10 /* Main.storyboard in Resources */,
+				CE366BA31DA65614009B9E9C /* PostCell.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CED3506F1D9BCE600000FF10 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CED3507A1D9BCE600000FF10 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4B6D27D5CE00DB8956B57DD0 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MoolProject/Pods-MoolProject-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		78B34650B6D28DA471D5B17C /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MoolProject/Pods-MoolProject-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F7D2B8E821BD3FEB6F51A763 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CED350571D9BCE5F0000FF10 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEA590D01DAF933E0026C4A9 /* TableChildFoodViewController.swift in Sources */,
+				CE366B9E1DA655CD009B9E9C /* ChildExampleViewController.swift in Sources */,
+				CE6140911DB8FDC4002D58A1 /* ProductCollectionViewCell.swift in Sources */,
+				CE32CC5F1DB101A3009069AF /* ShowDataCollectionViewCell.swift in Sources */,
+				CED350631D9BCE5F0000FF10 /* SecondViewController.swift in Sources */,
+				CE6140951DBA1BC4002D58A1 /* ProductTableViewCell.swift in Sources */,
+				CED3505F1D9BCE5F0000FF10 /* AppDelegate.swift in Sources */,
+				CE366BA51DA65614009B9E9C /* DataProvider.swift in Sources */,
+				CE366B9B1DA6552D009B9E9C /* ButtonBarExampleViewController.swift in Sources */,
+				CE32CC591DB0E268009069AF /* ShowDataTableViewCell.swift in Sources */,
+				CE366B9F1DA655CD009B9E9C /* TableChildExampleViewController.swift in Sources */,
+				CE366BA41DA65614009B9E9C /* PostCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CED3506D1D9BCE600000FF10 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CED350761D9BCE600000FF10 /* MoolProjectTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CED350781D9BCE600000FF10 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CED350811D9BCE600000FF10 /* MoolProjectUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CED350731D9BCE600000FF10 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CED3505A1D9BCE5F0000FF10 /* MoolProject */;
+			targetProxy = CED350721D9BCE600000FF10 /* PBXContainerItemProxy */;
+		};
+		CED3507E1D9BCE600000FF10 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CED3505A1D9BCE5F0000FF10 /* MoolProject */;
+			targetProxy = CED3507D1D9BCE600000FF10 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CED350641D9BCE5F0000FF10 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CED350651D9BCE5F0000FF10 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CED350691D9BCE5F0000FF10 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CED3506A1D9BCE5F0000FF10 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CED350831D9BCE600000FF10 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CED350841D9BCE600000FF10 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CED350861D9BCE600000FF10 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 59436FF76BB41E5C4DB0A729 /* Pods-MoolProject.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 8N936MB2VB;
+				INFOPLIST_FILE = MoolProject/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.yosukenakayama.MoolProject;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		CED350871D9BCE600000FF10 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2336EC0E256EC60D918A08CF /* Pods-MoolProject.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 8N936MB2VB;
+				INFOPLIST_FILE = MoolProject/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.yosukenakayama.MoolProject;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		CED350891D9BCE600000FF10 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = MoolProjectTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.yosukenakayama.MoolProjectTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MoolProject.app/MoolProject";
+			};
+			name = Debug;
+		};
+		CED3508A1D9BCE600000FF10 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = MoolProjectTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.yosukenakayama.MoolProjectTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MoolProject.app/MoolProject";
+			};
+			name = Release;
+		};
+		CED3508C1D9BCE600000FF10 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = MoolProjectUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.yosukenakayama.MoolProjectUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = MoolProject;
+			};
+			name = Debug;
+		};
+		CED3508D1D9BCE600000FF10 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = MoolProjectUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.yosukenakayama.MoolProjectUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = MoolProject;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CED350561D9BCE5F0000FF10 /* Build configuration list for PBXProject "MoolProject" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CED350831D9BCE600000FF10 /* Debug */,
+				CED350841D9BCE600000FF10 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CED350851D9BCE600000FF10 /* Build configuration list for PBXNativeTarget "MoolProject" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CED350861D9BCE600000FF10 /* Debug */,
+				CED350871D9BCE600000FF10 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CED350881D9BCE600000FF10 /* Build configuration list for PBXNativeTarget "MoolProjectTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CED350891D9BCE600000FF10 /* Debug */,
+				CED3508A1D9BCE600000FF10 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CED3508B1D9BCE600000FF10 /* Build configuration list for PBXNativeTarget "MoolProjectUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CED3508C1D9BCE600000FF10 /* Debug */,
+				CED3508D1D9BCE600000FF10 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CED350531D9BCE5F0000FF10 /* Project object */;
+}
